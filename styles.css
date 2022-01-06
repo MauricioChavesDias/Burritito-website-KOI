@@ -59,7 +59,9 @@ p {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 2%;
-  border-radius: 15px 60px;
+  border-radius: 50px 50px;
+  display: flex;
+  justify-content: center;
 }
 
 /* Style the links inside the navigation bar */
@@ -71,6 +73,7 @@ p {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  flex-grow: 4;
 }
 
 /* Change the color of links on hover */
