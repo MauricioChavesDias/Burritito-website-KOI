@@ -1,0 +1,96 @@
+body {
+  /* background-color: #3d3334; */
+  background-image: url("images/background.png");
+  background-size: cover;
+}
+
+img {
+  width: 200px;
+  margin-top: 10%;
+  float: center;
+  padding: 0%;
+}
+
+p {
+  float: center;
+  padding: 0%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150;
+  height: 80;
+  /* width: 50%; */
+}
+
+.title {
+  display: block;
+  margin: auto;
+  font-size: 80px;
+  font-family: "Hitchcut";
+  text-align: center;
+  color: #f1a641;
+}
+
+.description {
+  display: block;
+  margin: auto;
+  font-size: 30px;
+  font-family: "Aleo";
+  text-align: center;
+  color: #8dc740;
+  margin-top: 0%;
+  word-wrap: none;
+}
+
+.menuBar {
+  height: 50px;
+  display: flex;
+  background-color: #8dc740;
+  margin: 0%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #8dc740;
+  overflow: hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  border-radius: 15px 60px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  font-family: "Hitchcut";
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #f1a641;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #f1a641;
+  color: white;
+}
+
+@font-face {
+  font-family: "Hitchcut";
+  src: url(Fonts/Hitchcut/Hitchcut-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url(Fonts/Aleo/Aleo-Regular.ttf);
+}
