@@ -45,13 +45,6 @@ p {
   word-wrap: none;
 }
 
-.menuBar {
-  height: 50px;
-  display: flex;
-  background-color: #8dc740;
-  margin: 0%;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #8dc740;
