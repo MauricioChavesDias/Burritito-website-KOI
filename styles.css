@@ -1,11 +1,11 @@
 body {
   /* background-color: #3d3334; */
   background-image: url("images/background.png");
-  background-size: cover;
+  background-size: contain;
 }
 
 img {
-  width: 200px;
+  width: 300px;
   margin-top: 10%;
   float: center;
   padding: 0%;
@@ -16,13 +16,72 @@ p {
   padding: 0%;
 }
 
-.center {
+/* remove the underline colour from links */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* image size used for the logo */
+.smallSize {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 150;
   height: 80;
   /* width: 50%; */
+}
+
+/* image size used for the food pictures */
+.mediumSize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550;
+  height: 280;
+  /* width: 50%; */
+}
+
+/* containers to show the menu */
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 200;
+  height: 100;
+  gap: 10px;
+  /* column-gap: 100px; */
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subtitle {
+  display: block;
+  margin: auto;
+  font-size: 80px;
+  font-family: "Hitchcut";
+  text-align: center;
+  color: #f1a641;
+  margin-top: 5%;
 }
 
 .title {
@@ -41,8 +100,25 @@ p {
   font-family: "Aleo";
   text-align: center;
   color: #8dc740;
-  margin-top: 0%;
   word-wrap: none;
+}
+
+.smallTitle {
+  margin: auto;
+  font-size: 25px;
+  font-family: "Aleo";
+  text-align: center;
+  color: #f1a641;
+  margin-top: 2%;
+}
+.smallDesc {
+  font-size: 25px;
+  font-family: "Aleo";
+  text-align: center;
+  color: #8dc740;
+  margin-top: 1%;
+  width: 300px;
+  word-wrap: break-word;
 }
 
 /* Add a black background color to the top navigation */
