@@ -5,7 +5,7 @@
 
 ## Description
 
-Burritito website is a project using CSS and HTML developed by me and a group of classmates from my bachelor degree in IT at King's Own Institute in Sydney, Australia. The website was built using CSS and HTML.
+Burritito website is a project using CSS and HTML developed by me and a group of classmates as part of a group assignment for ICT203 Human Computer Interaction from King's Own Institute located in Sydney, Australia. 
 
 
 ## Screenshot
