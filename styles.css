@@ -1,7 +1,7 @@
 body {
   /* background-color: #3d3334; */
   background-image: url("images/background.png");
-  background-size: 100% 100%;
+  background-size: 100%;
 }
 
 .imgLogo {
@@ -130,6 +130,16 @@ a:active {
   margin-top: 1%;
   width: 300px;
   word-wrap: break-word;
+}
+
+.longDesc {
+  font-size: 30px;
+  font-family: "Aleo";
+  text-align: justify;
+  color: #8dc740;
+  word-wrap: break-word;
+  /* width: 1000px;
+  margin-left: 10%; */
 }
 
 /* Add a black background color to the top navigation */
