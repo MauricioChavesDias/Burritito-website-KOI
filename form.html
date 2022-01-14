@@ -1,0 +1,57 @@
+<!-- 
+
+  THIS PAGE IS USED ONLY FOR STUDIES PURPOSES. IT IS NOT BEING DISPLAYED ON THE WEBSITE.
+
+ -->
+
+
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="styles.css"/>
+
+  <h2>Customer Profile</h2>
+
+  <form action="Controller/Actionmethod" method="get">
+
+   <table>
+     <!-- TextBox: Customer name  -->
+     <tr>
+       <td>Customer Name: </td>
+       <td><input type="text" name= "customerName"></td>
+     </tr>
+
+     <!-- Radio buttons: Genre -->
+     <tr>
+      <td>Genre: </td>
+      <td><input type="radio" name= "mode" value= "Male"> Male</td>
+      <td><input type="radio" name= "mode" value= "Female"> Female</td>
+      <td><input type="radio" name= "mode" value= "None"> None</td>
+    </tr>
+
+    <!-- CheckBox: Store of interest  -->
+     <tr>
+      <td>Stores of interest?: </td>
+      <td><input type="checkbox" name= "loc1"> Sydney</td>
+      <td><input type="checkbox" name= "loc2"> Melbourne</td>
+      <td><input type="checkbox" name= "loc3"> Brisbane</td>
+    </tr>
+
+    <!-- menuList: Work Type -->
+    <tr>
+      <td>Work Type: </td>
+      <td><select name="dropdown">
+        <option value="se" selected> Self-Employed</option>
+        <option value="oe"> Office-Employed</option>
+      </td>
+    </tr>
+
+    <!-- button: Submit-->
+    <tr>
+      <td><input type="submit"></td>
+    </tr>
+
+   </table>
+
+  </form>
+
+</html>
