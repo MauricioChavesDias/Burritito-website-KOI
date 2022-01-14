@@ -1,8 +1,35 @@
-body {
-  /* background-color: #3d3334; */
-  background-image: url("images/background.png");
+/* sets base style for each page */
+
+/* set background image per page */
+.index-bg {
+  background: url("images/background_brown.png");
   background-size: 100%;
 }
+.about-bg {
+  background: url("images/background_brown.png");
+  background-size: 100%;
+}
+.contact-bg {
+  background: url("images/background_brown.png");
+  background-size: 100%;
+}
+.features-bg {
+  background: url("images/background_yellow.png");
+  background-size: 100%;
+}
+.description-bg {
+  background: url("images/background_brown.png");
+  background-size: 100%;
+}
+.menu-bg {
+  background: url("images/background_brown.png");
+  background-size: 100%;
+}
+
+/* body {
+  background-image: url("images/background.png");
+  background-size: 100%;
+} */
 
 .imgLogo {
   width: 300px;
@@ -64,6 +91,18 @@ a:active {
   /* width: 50%; */
 }
 
+.bigImageSize-2 {
+  display: block;
+  position: absolute;
+  right: 0%;
+  margin-left: auto;
+  margin-right: -20%;
+  width: 900px;
+  margin-top: -4.9%;
+  float: right;
+  height: 800px;
+}
+
 /* containers to show the menu */
 .flex-container-column {
   display: flex;
@@ -73,6 +112,44 @@ a:active {
   height: 100;
   gap: 10px;
   /* column-gap: 100px; */
+}
+
+.flex-container-column1 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 700px;
+  height: 100px;
+  justify-content: space-between;
+  gap: 10px;
+}
+.flex-container-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 200px;
+  height: 100px;
+  gap: 10px;
+  column-gap: 100px;
+}
+
+.flex-container-column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 200px;
+  height: 100px;
+  gap: 100px;
+  column-gap: 100px;
+}
+
+.flex-container-column4 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 700px;
+  height: 100px;
+  gap: 50px;
 }
 
 .flex-container-row {
@@ -85,6 +162,14 @@ a:active {
   justify-content: space-between;
 }
 
+.flex-container-row-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .subtitle {
   display: block;
   margin: auto;
@@ -93,6 +178,26 @@ a:active {
   text-align: center;
   color: #f1a641;
   margin-top: 5%;
+}
+
+.topic {
+  display: block;
+  margin: auto;
+  position: center;
+  font-family: "Hitchcut";
+  text-align: center;
+  color: #f1a641;
+  font-size: 21px;
+}
+
+.descTopic {
+  display: block;
+  margin: auto;
+  font-size: 25px;
+  font-family: "Aleo";
+  text-align: center;
+  color: #8dc740;
+  word-wrap: none;
 }
 
 .title {
@@ -116,12 +221,43 @@ a:active {
 
 .smallTitle {
   margin: auto;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Aleo";
   text-align: center;
   color: #f1a641;
   margin-top: 2%;
 }
+
+.smallTitle-brown {
+  margin: auto;
+  font-size: 30px;
+  font-family: "Aleo";
+  text-align: center;
+  color: #3d2a2c;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.subtitle-brown {
+  display: block;
+  margin: auto;
+  font-size: 80px;
+  font-family: "Hitchcut";
+  text-align: center;
+  color: #3d2a2c;
+  margin-top: 5%;
+}
+
+.smallDesc-brown {
+  font-size: 25px;
+  font-family: "Aleo";
+  text-align: center;
+  color: #3d2a2c;
+  margin-top: 1%;
+  width: 300px;
+  word-wrap: break-word;
+}
+
 .smallDesc {
   font-size: 25px;
   font-family: "Aleo";
@@ -181,7 +317,7 @@ a:active {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #f1a641;
+  background-color: #f1a541db;
   color: white;
 }
 
