@@ -8,7 +8,8 @@ Burritito website is a project using CSS and HTML developed by me and a group of
 
 ## Screenshot
 
-<img src= Documentation/Screenshot1.png>
+<img src= Documentation/Home.png>
+<img src= Documentation/Menu.png>
 
 ## What I learned building this app
 
