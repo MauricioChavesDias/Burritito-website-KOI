@@ -16,7 +16,7 @@ Burritito website is a project using CSS and HTML developed by me and a group of
 |             Description Page             |
 | <img src= Documentation/Description.png> |
 |         Press and Features Page          |
-| <img src= Documentation/Description.png> |
+|    <img src= Documentation/Press.png>    |
 |               Contact Page               |
 |   <img src= Documentation/Contact.png>   |
 |              About Us Page               |
